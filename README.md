@@ -24,7 +24,7 @@ This work is about exploring whether dialog systems can be improved with regards
 This work makes use of the [DailyDialog Dataset](https://arxiv.org/abs/1710.03957). 
 
 ## Data Preprocessing
-The data in original form is a raw text file with _eou_ as the delimiter between any two sentences. 
+The data in original form is a raw text file with `_eou_` as the delimiter between any two sentences. 
 
 ### For Vanilla Seq2Seq
 - Use the script to `make_data_vseq2seq.py` to process the data splits (train, validation and test) into a CSV file.
