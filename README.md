@@ -21,12 +21,16 @@ This work is about exploring whether dialog systems can be improved with regards
  ```
  
 ## Dataset
-This work is makes use of the * [DailyDialog Dataset](https://arxiv.org/abs/1710.03957). 
+This work is makes use of the [DailyDialog Dataset](https://arxiv.org/abs/1710.03957). 
 
 ## Data Preprocessing
-The data in original form is a raw text file with _eou_ as the delimiter between any two sentences. Use the script to process the splits into a CSV file.
+The data in original form is a raw text file with _eou_ as the delimiter between any two sentences. 
 
-Use the script to process the splits into a CSV file. Additional samples for each dialog have been created since they have generic responses and also because the number of dialogs is less, which may not be enough to train the model effectively. 
+### For Vanilla Seq2Seq
+- Use the script to `make_data_vseq2seq.py` to process the data splits (train, validation and test) into a CSV file.
+
+### For HRED
+- Use the `make_data_hred.py` script to process the data splits (train, validation and test) into a CSV file. Additional samples for each dialog have been created since they have generic responses and also because the number of dialogs is less, which may not be enough to train the model effectively. 
 
 ## Reference
 * [PyTorch Seq2Seq](https://github.com/bentrevett/pytorch-seq2seq)
