@@ -6,6 +6,18 @@
 ## Overview
 This work is about exploring whether dialog systems can be improved with regards to context and natural langugage relevance through pretraining or not.
 
+## Results
+
+| Description | Non-pretrained HRED  | Pretrained HRED  |
+| :---:   | :-: | :-: |
+| EPOCHS | 30 | 60 |
+| Training PPL | 61.67 | 5.53 |
+| Validation PPL | 278.75 | 813.49 |
+| Test PPL | 284.11 | 593.11 |
+| BLEU | 0.03 | 0.22 |
+
+From the generated dialog responses, it is inferred that after pretraining, the problem of natural language generation goes away but context relevance still remains to be an issue.
+
 ## Dependencies
  - PyTorch
  - TorchText
