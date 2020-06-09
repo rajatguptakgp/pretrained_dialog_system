@@ -16,8 +16,8 @@ This work is about exploring whether dialog systems can be improved with regards
  - To install TorchText: `pip install torchtext`
  - To install spaCy: 
  ```
- 'pip install -U spacy'
- `python -m spacy download en_core_web_sm`
+ pip install -U spacy
+ python -m spacy download en_core_web_sm
  ```
  
 ## Dataset
