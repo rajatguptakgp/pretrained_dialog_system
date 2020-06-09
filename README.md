@@ -27,7 +27,7 @@ This work makes use of the [DailyDialog Dataset](https://arxiv.org/abs/1710.0395
 The data in original form is a raw text file with `_eou_` as the delimiter between any two sentences. 
 
 ### For Vanilla Seq2Seq
-- Use the script to `make_data_vseq2seq.py` to process the data splits (train, validation and test) into a CSV file.
+- Use the `make_data_vseq2seq.py` script to process the data splits (train, validation and test) into a CSV file.
 
 ### For HRED
 - Use the `make_data_hred.py` script to process the data splits (train, validation and test) into a CSV file. Additional samples for each dialog have been created since they have generic responses and also because the number of dialogs is less, which may not be enough to train the model effectively. 
