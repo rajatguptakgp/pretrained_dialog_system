@@ -21,7 +21,7 @@ This work is about exploring whether dialog systems can be improved with regards
  ```
  
 ## Dataset
-This work is makes use of the [DailyDialog Dataset](https://arxiv.org/abs/1710.03957). 
+This work makes use of the [DailyDialog Dataset](https://arxiv.org/abs/1710.03957). 
 
 ## Data Preprocessing
 The data in original form is a raw text file with _eou_ as the delimiter between any two sentences. 
